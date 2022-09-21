@@ -17,16 +17,17 @@ body {
   width: 32rem;
   margin: 0 auto;
   margin-top: 5rem;
+  height: 70vh;
 }
 
 .App h1 {
   font-size: 3rem;
-  line-height: 3.2rem;
+  line-height: 1rem;
 }
 
 .App .counter {
   font-size: 8rem;
-  line-height: 8.4rem;
+  line-height: 1rem;
 }
 
 .App button {
