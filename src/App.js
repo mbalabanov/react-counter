@@ -23,11 +23,11 @@ function App() {
     <div className="App">
       <h1>Counter App</h1>
       <h2 class="counter">{count}</h2>
-      <button onClick={down}>-</button>
-      <button onClick={up}>+</button><br/>
       <button onClick={downBy2}>- -</button>
+      <button onClick={down}>-</button>
+      <button onClick={up}>+</button>
       <button onClick={upBy2}>+ +</button><br/>
-      <button onClick={halveCount}>Halve Count</button><br />
+      <button onClick={halveCount}>Halve Count</button>
       <button onClick={doubleCount}>Double Count</button>
     </div>
   );
