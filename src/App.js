@@ -11,6 +11,8 @@ function App() {
   const halveCount = () => setCount(Math.floor(count/2))
   const doubleCount = () => setCount(count * 2)
 
+  let fontSize = count + 2;
+
   if (count > 10) {
     setCount(10)
   }
@@ -22,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <h1>Counter App</h1>
-      <h2 class="counter">{count}</h2>
+      <h2 class="counter" style={{ fontSize: fontSize + 'rem' }}>{count}</h2>
       <button onClick={downBy2}>- -</button>
       <button onClick={down}>-</button>
       <button onClick={up}>+</button>
