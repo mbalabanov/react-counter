@@ -8,7 +8,8 @@ function App() {
   const down = () => setCount(count - 1)
   const upBy2 = () => setCount(count + 2)
   const downBy2 = () => setCount(count - 2)
-  const halveCaount = () => setCount(Math.floor(count/2))
+  const halveCount = () => setCount(Math.floor(count/2))
+  const doubleCount = () => setCount(count * 2)
 
   if (count > 10) {
     setCount(10)
@@ -26,7 +27,8 @@ function App() {
       <button onClick={up}>+</button><br/>
       <button onClick={downBy2}>- -</button>
       <button onClick={upBy2}>+ +</button><br/>
-      <button onClick={halveCaount}>Halve Count</button>
+      <button onClick={halveCount}>Halve Count</button><br />
+      <button onClick={doubleCount}>Double Count</button>
     </div>
   );
 }
